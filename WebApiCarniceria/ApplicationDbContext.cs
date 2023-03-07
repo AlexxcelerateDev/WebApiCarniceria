@@ -10,6 +10,7 @@ namespace WebApiCarniceria
 
         }
         public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Venta> Ventas { get; set; }
      }
     
 }
